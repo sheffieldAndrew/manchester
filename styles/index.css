@@ -1,47 +1,116 @@
-*{
- margin: 0;
- padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 15px;
 }
 
 body {
-    background-color:rgb(235, 213, 186);
+  background-color: rgb(235, 213, 186);
 }
 
-
 body {
-    font-family: "Source Sans Pro";
-    font-weight: 600;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
 }
 
 #home {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    height:max-content;
-    background-color:rgb(235, 213, 186);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: max-content;
+  background-color: rgb(235, 213, 186);
+  margin-bottom: 10px;
 }
 
 #content {
-    margin-top: 190px;
+  margin-top: 150px;
 }
 
 h1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    font-size: 150px;
-    letter-spacing: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  letter-spacing: 20px;
+  padding: 10px;
+  height: 100px;
+  margin-top: 10px;
 }
 
 .nav-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-   
-   }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  letter-spacing: 2px;
+}
 
 nav h4 {
-    font-size: 40px;
-    color:firebrick;
+  font-size: 40px;
+  color: firebrick;
+}
+
+h2 {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+#geography {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: cornsilk;
+  padding-left: 90px;
+}
+
+#geography-text {
+  width: 500px;
+  margin: 0;
+}
+
+#geography-image {
+  margin-top: 20px;
+  margin-right: 90px;
+}
+
+#history {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: cornsilk;
+  margin-top: 20px;
+  padding-left: 90px;
+}
+
+#history-text {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.home-links {
+  margin-left: 45px;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
+#food {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: max-content;
+  background-color: rgb(235, 213, 186);
+  margin-bottom: 0px;
+}
+
+#content-food {
+
+margin-top: 80px
+}
+.pages-header {
+    font-size: 70px;
 }
