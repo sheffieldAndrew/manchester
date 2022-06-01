@@ -1,0 +1,16 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height:max-content;
+    background-color:rgb(235, 213, 186); /*set same as body colour and there will be no colour diff but body will flow behind header */
+}
+
+#content {
+    margin-top: 170px;
+}
+
+/*
+- keeping header fixed whill scrolling body
+- everything below header in csection tag id=content
+*/
